@@ -10,6 +10,7 @@
 
 body {
   margin: 0px;
+  font-family: 'Josefin Slab', serif;
 }
 
 container {
@@ -22,7 +23,11 @@ height: auto;
 
  header {
   background-color: #B4CEB3;
-  height: 15%;
+  height: 18%;
+  border: 2px solid #a6a6a6;
+  border-radius: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 header h1 {
@@ -34,18 +39,31 @@ header h1 {
 header li {
   display: inline;
   list-style-type: none;
+
 }
 
 header a {
   color: #4C2C69;
   background-color: #EFF9F0;
-  padding: 7px;
-  margin: 15px;
+  padding: 8px;
+  margin-right: 4px;
   border-radius: 10px;
 }
 
 header a:hover {
   font-weight: bold;
+}
+/*
+FOOTER STYLES*/
+
+footer {
+  margin: 0;
+  padding: 0;
+  border-top: 2px solid #a6a6a6;
+  background-color: #B4CEB3;
+  height: 7%;
+  width: 100%%;
+  text-align: center;
 }
 
 /*$start-gradient-color: #B4CEB3
@@ -58,18 +76,39 @@ $end-gradient-color: #4C2C69
 /*LAYOUT STYLES*/
 
 .post {
- width: 90%;
+ display: block;
+ width: 96%;
  background-color: #EFF9F0;
  border-radius: 10px;
- margin-left: 10px;
- margin-right: 10px;
+ margin: auto;
  margin-top: 20px;
  padding: 5px;
  border: 2px solid #a6a6a6;
 }
 
-.post h3 {
+.post h2 {
  color: #4C2C69;
+}
+
+.comment {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.comment h2 {
+  color: #4C2C69;
+  text-decoration: underline;
+}
+
+.comment h3 {
+  color: #B4CEB3;
+  text-shadow: 1px 1px #000;
+}
+
+.comment hr {
+  margin-top: 20px;
+  color: #a6a6a6;
+
 }
 
 
@@ -80,6 +119,7 @@ button {
   background-color: #4C2C69;
   border-radius: 10px;
   color: white;
+  font-family: 'Josefin Slab', serif;
 }
 
 img {
