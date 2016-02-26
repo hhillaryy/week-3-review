@@ -1,0 +1,68 @@
+
+/*BASE STYLES*/
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+container {
+margin: 0 px;
+width: 100%;
+height: auto;
+}
+
+/*HEADER STYLES*/
+
+ header {
+  background-color: #B4CEB3;
+}
+
+header h1 {
+  margin: 0;
+  color: #4C2C69;
+}
+
+header li {
+  display: inline;
+  list-style-type: none;
+  background-color: #EFF9F0
+  padding: 7px;
+  border-radius: 10px;
+}
+
+/*$start-gradient-color: #B4CEB3
+$end-gradient-color: #4C2C69
+
+.simple-gradient
+  +linear-gradient($start-gradient-color, $end-gradient-color)
+  height: 400px*/
+
+/*LAYOUT STYLES*/
+
+.post {
+ width: 90%;
+ background-color: #EFF9F0;
+ border-radius: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
+ border: 2px solid #a6a6a6;
+}
+
+.post h3 {
+ color: #4C2C69;
+}
+
+/*Components & fonts */
+
+button {
+  background-color: #4C2C69;
+  border-radius: 10px;
+  color: white;
+}
