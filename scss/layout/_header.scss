@@ -1,34 +1,36 @@
 /*HEADER STYLES*/
 
  header {
-  background-color: #B4CEB3;
-  height: 18%;
-  border: 2px solid #a6a6a6;
+  background-color: $secondary-color;
+  height: 20%;
+  border: 2px solid $border-color;
   border-radius: 15px;
   margin-left: 2%;
   margin-right: 2%;
+    h1 {
+    margin: 0;
+    color: $primary-color;
+    text-align: center;
+  }
+  li {
+    display: inline;
+    list-style-type: none;
+  }
+  a {
+    color: $primary-color;
+    background-color: #EFF9F0;
+    padding: 8px;
+    margin-right: 4px;
+    border-radius: 10px;
+      &:hover {
+    font-weight: bold;
+    }
+  }
 }
 
-header h1 {
-  margin: 0;
-  color: #4C2C69;
-  text-align: center;
-}
+$start-gradient-color: $secondary-color
+$end-gradient-color: $primary-color
 
-header li {
-  display: inline;
-  list-style-type: none;
-
-}
-
-header a {
-  color: #4C2C69;
-  background-color: #EFF9F0;
-  padding: 8px;
-  margin-right: 4px;
-  border-radius: 10px;
-}
-
-header a:hover {
-  font-weight: bold;
-}
+.simple-gradient
+  +linear-gradient($start-gradient-color, $end-gradient-color)
+  height: 300px

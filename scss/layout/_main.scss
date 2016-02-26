@@ -8,30 +8,46 @@
  margin: auto;
  margin-top: 20px;
  padding: 5px;
- border: 2px solid #a6a6a6;
+ border: 2px solid $border-color;
+    h2 {
+    color: $primary-color;
+  }
 }
 
-.post h2 {
- color: #4C2C69;
-}
 
 .comment {
   margin: 0 auto;
   width: 80%;
+    h2 {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+  h3 {
+    color: $secondary-color;
+    text-shadow: 1px 1px #000;
+  }
+  hr {
+    margin-top: 20px;
+    color: $border-color;
+  }
 }
 
-.comment h2 {
-  color: #4C2C69;
-  text-decoration: underline;
-}
-
-.comment h3 {
-  color: #B4CEB3;
-  text-shadow: 1px 1px #000;
-}
-
-.comment hr {
-  margin-top: 20px;
-  color: #a6a6a6;
-
+@media #{$information-large} {
+  .post {
+    margin: 0 auto;
+    width: 80%;
+    img {
+  float: right;
+  width: 35%;
+  height: auto;
+  }
+    p{
+  float: left;
+  width: 65%;
+  }
+  }
+  .comment {
+    margin: 0 auto:auto;
+    width: 80%;
+  }
 }
