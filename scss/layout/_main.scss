@@ -1,0 +1,37 @@
+// POST AND COMMENT STYLES
+
+.post {
+ display: block;
+ width: 96%;
+ background-color: #EFF9F0;
+ border-radius: 10px;
+ margin: auto;
+ margin-top: 20px;
+ padding: 5px;
+ border: 2px solid #a6a6a6;
+}
+
+.post h2 {
+ color: #4C2C69;
+}
+
+.comment {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.comment h2 {
+  color: #4C2C69;
+  text-decoration: underline;
+}
+
+.comment h3 {
+  color: #B4CEB3;
+  text-shadow: 1px 1px #000;
+}
+
+.comment hr {
+  margin-top: 20px;
+  color: #a6a6a6;
+
+}
