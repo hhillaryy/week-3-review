@@ -2,7 +2,7 @@
 
 button {
   background-color: $primary-color;
-  border-radius: 10px;
+  @include border;
   color: white;
   font-family: 'Josefin Slab', serif;
 }
