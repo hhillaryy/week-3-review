@@ -11,6 +11,7 @@
  border: 2px solid $border-color;
     h2 {
     color: $primary-color;
+    @extend %heading-large;
   }
 }
 
@@ -18,13 +19,15 @@
 .comment {
   margin: 0 auto;
   width: 80%;
-    h2 {
+  h2 {
     color: $primary-color;
     text-decoration: underline;
+    @extend %heading-large;
   }
   h3 {
     color: $secondary-color;
     text-shadow: 1px 1px #000;
+    @extend %heading-med;
   }
   hr {
     margin-top: 20px;
@@ -44,6 +47,7 @@
     p{
   float: left;
   width: 65%;
+  clear: both;
   }
   }
   .comment {

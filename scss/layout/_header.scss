@@ -9,13 +9,13 @@
     h1 {
     margin: 0;
     color: $primary-color;
-    text-align: center;
+    @extend %centerText;
   }
-  li {
+    li {
     display: inline;
     list-style-type: none;
   }
-  a {
+    a {
     color: $primary-color;
     background-color: #EFF9F0;
     padding: 8px;
